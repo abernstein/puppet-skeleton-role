@@ -10,7 +10,6 @@
   5. [Reference -An under-the-hood peek at what the module is doing and how](#reference)
   5. [Limitations -OS compatibility, etc.](#limitations)
   6. [Development -Guide for contributing to the module](#development)
-  7. [Release Notes/Contributors/Etc] -**Optional**
 
 ##Overview
 The abstract term Role, the function assumed or part played by a person or thing
@@ -50,9 +49,9 @@ Or you could craft the roles to be parameterized and thus pass states there.
 
 or 
 
-`class { "roles::<role>::<category>":
+```class { "roles::<role>::<category>":
   state => 'sleep',
-}`
+}```
 
 ##Reference
 http://www.slideshare.net/PuppetLabs/roles-talk
@@ -65,4 +64,3 @@ None
 ##Development
 Pull requests will be taken to improve this class.
 
-##Release Notes
