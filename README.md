@@ -25,7 +25,7 @@ Should only implement profiles.
 Define a set of technology stacks (profiles) that make up the logical role.
 
 ##Setup
-git clone <repo> <modulepath>/roles
+`git clone <repo> <modulepath>/roles`
 
 ###What Roles affects
 This is a high level abstraction pattern and affects the way a project manages 
@@ -36,23 +36,23 @@ One of the loose requirements is the dependency towards using Profiles.
 
 ###Beginning with Roles
 Generally create a namespace for your roles. For example you could create a role 
-for each application where the roles::role::category::state. This would be 
-viewed like roles::web::server::dev. Where the state is a separate class 
+for each application where the `roles::role::category::state`. This would be 
+viewed like `roles::web::server::dev`. Where the state is a separate class 
 definition.
 
 Create a new folder to group roles into a common namespace.
-/roles/manifests/<role>/<category>/<state>
+`/roles/manifests/<role>/<category>/<state>`
 
 Or you could craft the roles to be parameterized and thus pass states there.
 
 ##Usage
-include { "roles::<role>::<category>::<state>": }
+`include { "roles::<role>::<category>::<state>": }`
 
 or 
 
-class { "roles::<role>::<category>":
+`class { "roles::<role>::<category>":
   state => 'sleep',
-}
+}`
 
 ##Reference
 http://www.slideshare.net/PuppetLabs/roles-talk
