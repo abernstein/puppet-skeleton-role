@@ -54,9 +54,11 @@ or
 }```
 
 ##Reference
-http://www.slideshare.net/PuppetLabs/roles-talk
-http://www.slideshare.net/bernstein_aaron/puppet-introduction-26593192
-http://www.slideshare.net/bernstein_aaron/puppet-modules
+[PuppetLabs Roles]: http://www.slideshare.net/PuppetLabs/roles-talk
+
+[Intro to Puppet]: http://www.slideshare.net/bernstein_aaron/puppet-introduction-26593192
+
+[Puppet Modules and the Forge]: http://www.slideshare.net/bernstein_aaron/puppet-modules
 
 ##Limitations
 None
